@@ -1,0 +1,7 @@
+entrance:
+    serviceport: 8123
+    upstream:
+        -
+            type: connect
+            addr: 0.0.0.0
+            port: 8124
